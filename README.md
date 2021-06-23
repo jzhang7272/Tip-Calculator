@@ -36,7 +36,7 @@ GIF created with [ezgif](https://ezgif.com/video-to-gif).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Had some trouble with animations at first.
 
 ## Credits
 
