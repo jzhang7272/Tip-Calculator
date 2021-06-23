@@ -16,6 +16,7 @@
 		EDAA5EDF26826CE100CDB76F /* Tip_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5EDE26826CE100CDB76F /* Tip_CalculatorTests.m */; };
 		EDAA5EEA26826CE100CDB76F /* Tip_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5EE926826CE100CDB76F /* Tip_CalculatorUITests.m */; };
 		EDAA5EF9268275AB00CDB76F /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5EF8268275AB00CDB76F /* TipViewController.m */; };
+		EDAA5EFC2682EBAF00CDB76F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAA5EFB2682EBAF00CDB76F /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		EDAA5EEB26826CE100CDB76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDAA5EF7268275AB00CDB76F /* TipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
 		EDAA5EF8268275AB00CDB76F /* TipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		EDAA5EFA2682EBAF00CDB76F /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		EDAA5EFB2682EBAF00CDB76F /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		EDAA5EC126826CDF00CDB76F /* Tip Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				EDAA5EFA2682EBAF00CDB76F /* SettingsViewController.h */,
+				EDAA5EFB2682EBAF00CDB76F /* SettingsViewController.m */,
 				EDAA5EC226826CDF00CDB76F /* AppDelegate.h */,
 				EDAA5EC326826CDF00CDB76F /* AppDelegate.m */,
 				EDAA5EC526826CDF00CDB76F /* SceneDelegate.h */,
@@ -268,6 +273,7 @@
 			files = (
 				EDAA5EC426826CDF00CDB76F /* AppDelegate.m in Sources */,
 				EDAA5ED526826CE100CDB76F /* main.m in Sources */,
+				EDAA5EFC2682EBAF00CDB76F /* SettingsViewController.m in Sources */,
 				EDAA5EF9268275AB00CDB76F /* TipViewController.m in Sources */,
 				EDAA5EC726826CDF00CDB76F /* SceneDelegate.m in Sources */,
 			);
